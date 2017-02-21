@@ -1,15 +1,23 @@
 {
   "name": "cover_image_gallery",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Sky IWASAKI",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "react": "^15.4.2",
-    "react-file-input": "^0.2.5"
-  }
+    "version": "1.0.3",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+      "name": "iwsksky",
+      "email": "sd08013@gmail.com"
+    },
+    "license": "ISC",
+    "description": "",
+    "repository" : {
+      "type" : "git",
+      "url" : "git@github.com:sdsd08013/cover_image_gallery.git"
+
+    },
+    "dependencies": {
+      "react": "^0.14.0",
+      "react-file-input": "^0.2.5"
+    }
 }
