@@ -7,5 +7,9 @@
   },
   "author": "Sky IWASAKI",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-file-input": "^0.2.5"
+  }
 }
