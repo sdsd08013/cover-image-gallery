@@ -1,23 +1,45 @@
 {
-  "name": "cover_image_gallery",
-    "version": "1.0.3",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": {
-      "name": "iwsksky",
-      "email": "sd08013@gmail.com"
-    },
-    "license": "ISC",
-    "description": "",
-    "repository" : {
-      "type" : "git",
-      "url" : "git@github.com:sdsd08013/cover_image_gallery.git"
-
-    },
-    "dependencies": {
-      "react": "^0.14.0",
-      "react-file-input": "^0.2.5"
-    }
+  "name": "cover-image-gallery",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "draft-js": "^0.10.0",
+    "glob": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.3",
+    "gulp-babel": "^6.1.2",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-watch": "^4.3.11",
+    "immutable": "^3.8.1",
+    "react": "^15.4.2",
+    "react-draft-wysiwyg": "^1.7.0",
+    "react-dom": "^15.4.2",
+    "react-froala-wysiwyg": "^2.4.2",
+    "setimmediate": "^1.0.5",
+    "test": "^0.6.0",
+    "vinyl-transform": "^1.0.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.12.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdsd08013/cover_image_gallery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdsd08013/cover_image_gallery/issues"
+  },
+  "homepage": "https://github.com/sdsd08013/cover_image_gallery#readme"
 }
