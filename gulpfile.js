@@ -8,7 +8,7 @@ gulp.task('browserify', function() {
     .transform(babelify)
     .bundle()
     .on("error", function (err) { console.log("Error : " + err.message); })
-    .pipe(source('index.js'))
+    .pipe(source('app.js'))
     .pipe(gulp.dest('./lib'))
 });
 
@@ -16,4 +16,4 @@ gulp.task('watch', function() {
   gulp.watch('./*.jsx', ['browserify'])
 });
 
-gulp.task('default', ['browserify', 'watch']);
+gulp.task('default', ['browserify']);
