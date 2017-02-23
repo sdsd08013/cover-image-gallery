@@ -10,4 +10,4 @@ dist/ImageUploader.jsx
 
 - related file
 
-dist/*.js
+lib/*.js
