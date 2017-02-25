@@ -4,10 +4,9 @@ var babelify = require('babelify');
 var source = require('vinyl-source-stream');
 
 gulp.task('browserify', function() {
-  browserify('./lib/ImageUploader.jsx', { debug: true })
-    .transform(babelify)
+  browserify('./lib/ImageUploader.js', { debug: true })
+    .transform("babelify", {presets: ["es2015", "react"]})
     .bundle()
-    .on("error", function (err) { console.log("Error : " + err.message); })
     .pipe(source('app.js'))
     .pipe(gulp.dest('./lib'))
 });
