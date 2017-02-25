@@ -2,7 +2,7 @@
 
 - npm_package
 
-https://www.npmjs.com/package/draft-js-image-plugin
+https://www.npmjs.com/package/cover-image-gallery
 
 - main file
 
