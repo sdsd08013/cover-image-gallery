@@ -14,6 +14,8 @@ dist/ImageUploader.js
 `import ImageUploader from 'cover-image-gallery'`
 
 ### set url props
+```
 <ImageUploader
   image_root_path="[API_path to get image urls]"
 />
+```
