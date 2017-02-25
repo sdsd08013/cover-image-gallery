@@ -15,7 +15,7 @@ dist/ImageUploader.js
 
 ### set url props
 ```
-<ImageUploader
+<ImageGallery
   image_root_path="[API_path to get image urls]"
 />
 ```
