@@ -4,6 +4,7 @@
   "description": "",
   "main": "./lib/ImageUploader.js",
   "dependencies": {
+    "file-input-list": "^1.0.0",
     "react-file-input": "^0.2.5"
   },
   "devDependencies": {
